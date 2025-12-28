@@ -1,0 +1,106 @@
+#welcome-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #bef2b8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    color: green;
+}
+
+#start-btn {
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+body {
+    background-image: url('./images/jungle.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Rubik Gemstones", serif;
+    font-size: 100px ; 
+}
+
+.set{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.animal{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    font-size: 3rem;
+    color: pink;
+    text-shadow: 3px 0 black;
+    border-radius: 25%;
+    border: 4px solid;
+}
+
+.dog{
+    background-image: url(./images/dog.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cat{
+    background-image: url(./images/cat.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.frog{
+    background-image: url(./images/frog.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.lion{
+    background-image: url(./images/lion.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.pig{
+    background-image: url(./images/pig.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bear{
+    background-image: url(./images/bear.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.elephant{
+    background-image: url(./images/elephant.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.pressed {
+    transform: scale(0.95);      /* מקטין את הכפתור ב-5% (אפקט לחיצה) */
+    box-shadow: 0 0 15px yellow; /* מוסיף הילה זוהרת מסביב */
+    border-color: white;         /* משנה את צבע המסגרת */
+}
